@@ -1,0 +1,32 @@
+{
+  "name": "cachexchange",
+  "version": "1.0.0",
+  "description": "Faster caching solution using node-cache and amqp broker/exchange after comparing cachers local vs central",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratyaman/cachexchange.git"
+  },
+  "keywords": [
+    "cache",
+    "amqp",
+    "exchange",
+    "queue",
+    "node-cache",
+    "rabbitmq",
+    "redis"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/muratyaman/cachexchange/issues"
+  },
+  "homepage": "https://github.com/muratyaman/cachexchange#readme",
+  "dependencies": {
+    "amqp-connection-manager": "^4.1.13",
+    "node-cache": "^5.1.2"
+  }
+}
